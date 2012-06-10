@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"
-      xmlns:dc="http://purl.org/dc/terms/"
-      xmlns:opds="http://opds-spec.org/2010/catalog">
-
-  <title>myOPDS Demo Library</title>
-  <author>
-    <name>Matthias Bock</name>
-  </author>
-  <summary>myOPDS Library</summary>
-
-<entry>
+  <entry>
     <title>Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics</title>
     <author>
       <name>Andrew J. Collins</name>
@@ -50,11 +39,11 @@
 	ence of the symbiont influences gene expression of the cellular innate immune system of
 	E. scolopes.
     </summary>
+    <link rel="http://opds-spec.org/acquisition" 
+          href="Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
+          type="application/pdf"/>
     <link rel="http://opds-spec.org/image/thumbnail"
           href="thumbnail.php?filename=Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
           type="image/png"/>
-    <link rel="http://opds-spec.org/acquisition" 
-          href="publications/Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
-          type="application/pdf"/>
   </entry>
-</feed>
+
