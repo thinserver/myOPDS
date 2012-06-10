@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<Url type="application/atom+xml;profile=opds-catalog"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     template="search.php?q={searchTerms}&author={atom:author}&contributor={atom:contributor}&title={atom:title}"
+/>
+</feed>

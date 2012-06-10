@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xmlns:opds="http://opds-spec.org/2010/catalog"
+	xml:lang="en"
+	xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:app="http://www.w3.org/2007/app"
+	xmlns="http://www.w3.org/2005/Atom">
 
-  <id>Start</id>
-  <title>myOPDS Library</title>
-  <author>
-    <name>Matthias Bock</name>
-  </author>
-  <icon>myOPDS.png</icon>
+	<link rel="search"
+	      title="Search"
+	      href="search.xml"
+	      type="application/opensearchdescription+xml"/>
+
+	<id>Start</id>
+	<title>myOPDS Library</title>
+	<icon>myOPDS.png</icon>
+	<author>
+		<name>Matthias Bock</name>
+	</author>
  
-  <entry>
-    <title>Catalog</title>
-    <link rel="http://opds-spec.org/sort/popular" 
-          href="catalog.php"
-          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
-    <id>Catalog</id>
-    <content type="text">My Books, Papers, Publications</content>
-  </entry>
-
+	<entry>
+		<id>Catalog</id>
+		<title>Catalog</title>
+		<content type="text">My Books, Papers, Publications</content>
+		<link rel="http://opds-spec.org/sort/popular" 
+		      href="catalog.php"
+		      type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+	</entry>
 </feed>
