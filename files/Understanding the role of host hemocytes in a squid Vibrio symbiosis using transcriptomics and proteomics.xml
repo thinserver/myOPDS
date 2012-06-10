@@ -1,4 +1,5 @@
   <entry>
+    <id>Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics</id>
     <title>Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics</title>
     <author>
       <name>Andrew J. Collins</name>
@@ -45,5 +46,8 @@
     <link rel="http://opds-spec.org/image/thumbnail"
           href="thumbnail.php?filename=Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
           type="image/png"/>
+    <link rel="http://opds-spec.org/acquisition" 
+          href="epub.php?filename=Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
+          type="application/epub+zip"/>
   </entry>
 
