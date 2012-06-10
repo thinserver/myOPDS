@@ -1,13 +1,9 @@
 <?php
 
-# settings
-$folder = "thumbnails";
+	$thumbnails = "thumbnails";
+	$files = "files";
 
-# take filename as parameter
-# generate file's md5sum
-# if exists:
-#    return thumbnail image from subfolder
-# else:
-#    generate and return
+	$md5 = md5_file($files.'/'.$_GET['filename']);
+	readfile($thumbnails.'/'.$md5.'.png');
 
 ?>

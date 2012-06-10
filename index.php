@@ -1,15 +1,14 @@
 <?php
+	readfile('header.xml');
 
-readfile('header.xml');
+	$folder = 'files';
 
-$folder = 'publications';
-
-$publications = scandir($folder);
-foreach ($publications as $file) {
-	if (strpos($file, '.xml') > -1) {
-		$name = $folder.'/'.$file;
-		readfile($name);
+	$files = scandir($folder);
+	foreach ($files as $file) {
+		if (strpos($file, '.xml') > -1) {
+			$name = $folder.'/'.$file;
+			readfile($name);
+			}
 		}
-	}
 ?>
 </feed>
