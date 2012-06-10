@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<Url type="application/atom+xml;profile=opds-catalog"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     template="search.php?q={searchTerms}&author={atom:author}&contributor={atom:contributor}&title={atom:title}"
-/>
-</feed>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"> 
+  <ShortName>Search</ShortName> 
+  <Description>Search my OPDS Library</Description> 
+  <InputEncoding>UTF-8</InputEncoding> 
+  <OutputEncoding>UTF-8</OutputEncoding> 
+  <Url type="application/atom+xml" template="search.php?q={searchTerms}"/> 
+  <Query role="example" searchTerms="Vibrio" /> 
+</OpenSearchDescription>
