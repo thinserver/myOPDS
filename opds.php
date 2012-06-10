@@ -1,6 +1,7 @@
 <?php
 
-$folder = "./publications/";
-print "test";
+$folder = "publications";
+
+print readfile('demo.xml');
 
 ?>

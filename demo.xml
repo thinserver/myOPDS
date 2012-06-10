@@ -3,10 +3,11 @@
       xmlns:dc="http://purl.org/dc/terms/"
       xmlns:opds="http://opds-spec.org/2010/catalog">
 
-<title>Demo Publications Repo</title>
+  <title>myOPDS Demo Library</title>
   <author>
     <name>Matthias Bock</name>
   </author>
+  <summary>myOPDS Library</summary>
 
 <entry>
     <title>Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics</title>
