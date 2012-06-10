@@ -1,6 +1,6 @@
 <?php
 
-$folder = "./OPDS";
+$folder = "./publications/";
 print "test";
 
 ?>

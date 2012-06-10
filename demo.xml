@@ -9,17 +9,48 @@
   </author>
 
 <entry>
-    <title>Bob, Son of Bob</title>
+    <title>Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics</title>
     <author>
-      <name>Bob the Recursive</name>
-      <uri>http://opds-spec.org/authors/1285</uri>
+      <name>Andrew J. Collins</name>
+    </author>
+    <author>
+      <name>Tyler R. Schleicher</name>
+    </author>
+    <author>
+      <name>Bethany A. Rader</name>
+    </author>
+    <author>
+      <name>Spencer V. Nyholm</name>
     </author>
     <dc:language>en</dc:language>
-    <dc:issued>1917</dc:issued>
-    <summary>The story of the son of the Bob and the gallant part he played in
-      the lives of a man and a woman.</summary>
-    <link rel="http://opds-spec.org/image/thumbnail" 
-          href="thumbnails/Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.png"
+    <dc:issued>2012</dc:issued>
+    <summary>
+	The symbiosis between the squid, Euprymna scolopes, and the bacterium, Vibrio fischeri,
+	serves as a model for understanding interactions between beneficial bacteria and ani-
+	mal hosts. The establishment and maintenance of the association is highly specific and
+	depends on the selection of V. fischeri and exclusion of non-symbiotic bacteria from the
+	environment. Current evidence suggests that the host’s cellular innate immune system, in
+	the form of macrophage-like hemocytes, helps to mediate host tolerance of V. fischeri. To
+	begin to understand the role of hemocytes in this association, we analyzed these cells by
+	high-throughput 454 transcriptomic and liquid chromatography/tandem mass spectrome-
+	try (LC-MS/MS) proteomic analyses. 454 high-throughput sequencing produced 650, 686
+	reads totaling 279.9 Mb while LC-MS/MS analyses of circulating hemocytes putatively
+	identified 702 unique proteins. Several receptors involved with the recognition of microbial-
+	associated molecular patterns were identified. Among these was a complete open reading
+	frame to a putative peptidoglycan recognition protein (EsPGRP5) with conserved residues
+	for amidase activity. Assembly of the hemocyte transcriptome showed EsPGRP5 had high
+	coverage, suggesting it is among the 5% most abundant transcripts in circulating hemo-
+	cytes. Other transcripts and proteins identified included members of the conserved NF-κB
+	signaling pathway, putative members of the complement pathway, the carbohydrate bind-
+	ing protein galectin, and cephalotoxin. Quantitative Real-Time PCR of complement-like
+	genes, cephalotoxin, EsPGRP5, and a nitric oxide synthase showed differential expression
+	in circulating hemocytes from adult squid with colonized light organs compared to those
+	isolated from hosts where the symbionts were removed.These data suggest that the pres-
+	ence of the symbiont influences gene expression of the cellular innate immune system of
+	E. scolopes.
+    </summary>
+    <link rel="http://opds-spec.org/image/thumbnail"
+          href="thumbnail.php?filename=Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
           type="image/png"/>
     <link rel="http://opds-spec.org/acquisition" 
           href="publications/Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
