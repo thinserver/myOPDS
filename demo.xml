@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+<title>Demo Publications Repo</title>
+  <author>
+    <name>Matthias Bock</name>
+  </author>
+
+<entry>
+    <title>Bob, Son of Bob</title>
+    <author>
+      <name>Bob the Recursive</name>
+      <uri>http://opds-spec.org/authors/1285</uri>
+    </author>
+    <dc:language>en</dc:language>
+    <dc:issued>1917</dc:issued>
+    <summary>The story of the son of the Bob and the gallant part he played in
+      the lives of a man and a woman.</summary>
+    <link rel="http://opds-spec.org/image/thumbnail" 
+          href="thumbnails/Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.png"
+          type="image/png"/>
+    <link rel="http://opds-spec.org/acquisition" 
+          href="publications/Understanding the role of host hemocytes in a squid Vibrio symbiosis using transcriptomics and proteomics.pdf"
+          type="application/pdf"/>
+  </entry>
+</feed>
