@@ -1,8 +1,8 @@
 <?php
 
 	$files = "files";
-	$epubs = "ePub";
+	$epubs = "epub";
 
-# run calibre
+# run calibre: ebook-convert x.pdf x.ebook
 
 ?>
